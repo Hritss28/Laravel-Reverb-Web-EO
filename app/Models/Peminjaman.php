@@ -39,7 +39,8 @@ class Peminjaman extends Model
         'tanggal_pinjam' => 'date',
         'tanggal_kembali_rencana' => 'date',
         'tanggal_kembali_aktual' => 'date',
-        'jumlah' => 'integer'
+        'jumlah' => 'integer',
+        'paid_at' => 'datetime',
     ];
 
     /**
